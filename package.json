@@ -20,7 +20,7 @@
     "format.fix": "prettier --write .",
     "typecheck": "tsc",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d portfolio"
+    "deploy": "gh-pages -d client"
 
   },
   "dependencies": {
