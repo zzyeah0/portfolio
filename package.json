@@ -4,12 +4,10 @@
   "type": "module",
   "pkg": {
     "assets": [
-      "dist/spa/*",
-      "public"
+      "dist/spa/*"      
     ],
     "scripts": [
-      "dist/server/**/*.js",
-      "client/App.tsx"
+      "dist/server/**/*.js"
     ]
   },
   "scripts": {
@@ -22,7 +20,7 @@
     "format.fix": "prettier --write .",
     "typecheck": "tsc",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d portfolio"
 
   },
   "dependencies": {
